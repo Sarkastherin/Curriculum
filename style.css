@@ -1,0 +1,51 @@
+:root {
+    --primary : #FF3131;
+    --bg-par: #e7e6e5;
+    --secondary: #706565;
+}
+nav {
+    background-color: var(--primary);
+}
+main {
+    position: relative;
+    top: 100px;
+}
+.par {
+ background-color: var(--bg-par);
+}
+.card img {
+    width: 100px;
+    margin: auto;
+    padding-top: 1rem;
+}
+.date-experince p {
+    font-size: 0.9rem;
+    margin: 0;
+    color: var(--secondary);
+    font-weight: 600;
+    text-align: end;
+}
+.content-experince h3 {
+    margin: 0;
+    font-size: 1.15rem;
+}
+.content-experince em {
+    color: var(--primary);
+}
+.content-experince h4 {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.content-experince p {
+    font-size: 0.9rem;
+}
+.footer-experience {
+    text-align: end;
+    color: var(--secondary);
+}
+.pic {
+    box-shadow: 0px 0px 10px 5px rgba(217,217,217,1);
+    border-radius: 25px;
+    padding: 0!important;
+    overflow: hidden;
+}
