@@ -1,5 +1,6 @@
 :root {
     --primary : #FF3131;
+    --bg-par: #e7e6e5;
     --secondary: #706565;
 }
 nav {
@@ -8,6 +9,9 @@ nav {
 main {
     position: relative;
     top: 100px;
+}
+.par {
+ background-color: var(--bg-par);
 }
 .card img {
     width: 100px;
@@ -38,4 +42,10 @@ main {
 .footer-experience {
     text-align: end;
     color: var(--secondary);
+}
+.pic {
+    box-shadow: 0px 0px 10px 5px rgba(217,217,217,1);
+    border-radius: 25px;
+    padding: 0!important;
+    overflow: hidden;
 }
